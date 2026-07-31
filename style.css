@@ -1,5 +1,157 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
+}
+
+body {
+
+    background-color: #0e1016;
+    color: #D9FFF4;
+    color: #fff;
+}
+
+img {
+
+    width: 100%;
+
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+
+
+a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* 
+.hamburger .bar{
+
+    background-color: black;
+    width: 5rem;
+    height: 5rem;
+
+} */
+
+
+/* HAMBURGER AND NAV */
+
+header {
+
+    position: sticky;
+    top: 0;
+    background: #fffffff8;
+}
+
+.nav-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    position: relative;
+}
+
+#toggle {
+
+    display: none;
+
+}
+
+#toggle-label{
+
+    color: black;
+}
+
+
+.nav-links {
+
+    display: none;
+    position: absolute;
+    top: 3.19rem;
+    right: 0rem;
+    background: #D9FFF4;
+    width: 100%;
+
+}
+
+.nav-links :hover {
+
+    background-color: rgb(241, 228, 228);
+
+
+}
+
+.nav-links li a {
+
+    display: block;
+    padding: .5rem 0;
+    margin: 0 0 .2rem 0;
+}
+
+#toggle:checked~.nav-links {
+
+    display: block;
+}
+
+/* MOBILE HERO SECTION */
+
+.hero-container {
+
+    width: 90%;
+    margin: 1rem auto;
+    /* background: #f2f8f8d8; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+
+}
+
+.hero-content {
+
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    /* line-height: 2rem; */
+}
+
+.hero-pic {
+
+    width: 100%;
+}
+
+.hero-container img {
+
+    border-radius: 20px;
+}
+
+.hero-badge {
+
+    border: 2px solid #43637E;
+    border-radius: 50px;
+    width: 100%;
+    padding: .25rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn-primary,
+.btn-secondary{
+
+    color: #a4fa03;
 }
