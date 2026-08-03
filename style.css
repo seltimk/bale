@@ -332,7 +332,7 @@ header {
     font-weight: 1000;
     text-align: center;
     font-size: 2rem;
-    animation: shake 3s ease;
+    animation: fadeIn 3s ease;
 }
 
 .hero-content h1 {
@@ -399,3 +399,7 @@ header {
 
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
