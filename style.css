@@ -233,6 +233,11 @@ header {
     
 }
 
+.social-links i{
+
+    color:#fff;
+}
+
 
 
 
@@ -352,17 +357,44 @@ header {
    
 }
 
-.section-header{
-    margin: 2rem;
-     text-align: center;
+
+/* COURSES STYLES */
+
+.course-container{
+
+    width: 90%;
+    margin: 3rem auto;
+    
 }
 
-.about-text-card p{
+.courses-grid{
 
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+
+.course-card{
+    width: 48%;
+    box-shadow: 1px 1px 10px 1px rgb(77, 62, 62);
+    margin: .8rem auto;
+    padding: 5rem;
     text-align: center;
-    margin-bottom: 1rem;
+    display: flex;
+    /* flex-direction: column; */
+    /* gap: 1rem; */
+    font-size: 1.3rem;
+
+
 }
 
+.course-card a{
+
+    color: #a4fa03;
+
+
+}
 
 
 }
