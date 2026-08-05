@@ -11,16 +11,18 @@
 header{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    padding: 5px 30px;
+    width: 90%;
+    padding: 5px 0;
+    margin: 0 auto;
 }
 
 .navbar{
     display: flex;
     align-items: center;
-    height: 60px;
     width: 100%;
-    position: relative;
+    padding: .8rem 0;
+    margin: 0 auto;
+    /* position: relative; */
 }
 
 .checkbox{
@@ -205,14 +207,19 @@ header{
 
 .hero {
     background: url(assets/hero\ background.jpeg);
-    width: 100%;
+    width: 90%;
     margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
 }
 
 .hero-top {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     position: relative;
     padding: 6rem;
 }
@@ -224,6 +231,19 @@ header{
     align-items: center;
     text-align: center;
 }
+
+.hero-txt  h1{
+
+    margin: 5rem  auto 2rem auto;
+   
+}
+
+.hero-txt  p{
+
+    margin-top: 5rem;
+   
+}
+
 
 .hero-fast-btn {
     display: flex;
@@ -290,6 +310,13 @@ header{
 .hero-pic-one, .hero-pic-two, .hero-pic-three, .hero-pic-four {
     position: absolute;
 }
+
+.hero-pic-one, .hero-pic-two, .hero-pic-three, .hero-pic-four img {
+    width: 150px;
+    height: 150px;
+    
+}
+
 .hero-pic-one {
     left: 1rem;
     top: 0rem;
@@ -310,7 +337,7 @@ header{
 
 /*The lower section of hero that has the parners icon*/
 .hero-icons {
-    width: 80%;
+    width: 100%;
     margin: 1rem auto;
     display: flex;
     gap: 5rem;
@@ -323,10 +350,14 @@ header{
 }
 
 .partner-icons {
+
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     gap: 2rem;
     align-items: center;
     justify-content: space-between;
+    
 }
 .partner-icons img {
     width: 150px;
