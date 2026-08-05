@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAV BAR  BY EDWIN */
+
+
+
+/* HERO SECTION  BY PHILLIP AND OBED */
+
+
+
+/* FEATURES BY  BOSAN */
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.8rem;
+}
+
+.feat-txt {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.feat-txt p{
+    align-self:center;
+    width: 80%;
+}
+
+.features .feat-bttn  button {
+    background-color: white;
+    color: #004838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150%;
+    border: 0.01px solid #ebede8;
+    /* padding: 0.1rem; */
+    border-radius: 1rem;
+    gap:0.5rem;
+    height: 2rem;
+}
+
+
+
+/* INTEGRATION SECTION  */
+
+
+/* FOOTER BY RAPHAEL */
