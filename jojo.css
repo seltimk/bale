@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAV BAR  BY EDWIN */
+
+
+
+/* HERO SECTION  BY PHILLIP AND OBED */
+
+
+
+/* INTEGRATION SECTION  */
+.integration{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    gap: 40px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    
+}
+
+.integration-text{
+    height: auto;
+    span{
+        color: #073127;
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p{
+        color: #073127;
+        font-size:xx-large;
+        text-align: center;
+        margin-top: 20px;
+        font-weight:300;
+    }
+}
+
+.integration-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img{
+        height: 5rem;
+        width: 7rem;
+        /* border-radius: 50%; */
+        background-color: #FFFFFF;
+    }
+
+}
+
+
+
+
+/* FOOTER BY RAPHAEL */
