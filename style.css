@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAV BAR  BY EDWIN */
+
+
+
+/* HERO SECTION  BY PHILLIP AND OBED */
+
+
+
+/* INTEGRATION SECTION  */
+
+
+/* FOOTER BY RAPHAEL */
+footer{
+    background-color: #1A1A1A;
+    color: #fff;
+    padding: 50px;
+    height: 100%;
+    gap: 40px;
+}
+.footer-content{
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 15rem;
+    margin-bottom: 6rem;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-logo img{
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-contact{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 1rem;
+    
+}
+.others{
+    display: flex;
+    gap: 12rem;
+    margin-top: 1rem;
+}
+.list li{
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: #fff;
+}
+.solutions, .customers, .resources{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.solutions p, .customers p, .resources p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.solutions ul, .customers ul, .resources ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.last{
+    display: flex;
+    align-items: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
