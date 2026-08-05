@@ -7,8 +7,193 @@
 
 /* NAV BAR  BY EDWIN */
 
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px 30px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+
+.checkbox{
+    display: none;
+}
+
+.harmburger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.harmburger span{
+    width: 25px;
+    height: 2px;
+    background: #000;
+    margin: 4px 0;
+    border-radius: 4px;
+}
+
+.brand-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 10px;
+}
+
+.nav-lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    gap: 20px;
+
+}
+
+.lists a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.nav-btns{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.login-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    color: #004838;
+    background: white;
+    font-size: 1.2rem;
+    font-size: 600;
+    cursor: pointer;
+}
+
+.start-btn{
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: #004838;
+    color: #E2FB6C;
+}
+
+.login-btn:hover{
+    background-color: #EBEDE8;
+}
+
+.start-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
 
 
+@media  screen and (max-width:768px) {
+    
+    .harmburger{
+        display: flex;
+        margin-left: auto;
+    }
+
+    .nav-lists{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+        background: white;
+        margin-left: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .nav-btns{
+        display: none;
+    }
+
+    .login-btn{
+        border: 1px solid #004838;
+        border-radius: 5px;
+        padding: 7px;
+        color: #004838;
+        background: white;
+        font-size: 1.2rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .lists{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .lists li{
+        list-style: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 10px 0;
+        border-bottom: 1px solid #000;
+    }
+    
+    .checkbox:checked~ .nav-lists{
+        display: flex;
+    }
+
+    .checkbox:checked~ .nav-btns{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        top:250px;
+        left: 18px;
+        right: 20px;
+        margin: 0 auto;
+        position: absolute;
+        margin-left: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+}
 /* HERO SECTION  BY PHILLIP AND OBED */
 
 
