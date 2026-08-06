@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+
+
+
+  font-family: "Roboto", sans-serif;
+  
+}
+
 
 /* NAV BAR  BY EDWIN */
 
@@ -351,7 +359,7 @@ header {
 
 /*The lower section of hero that has the parners icon*/
 .hero-icons {
-    width: 100%;
+    width: 95%;
     margin: 1rem auto;
     display: flex;
     gap: 5rem;
@@ -384,7 +392,10 @@ header {
 /* MAXI STYLES */
 
 
-.integration-section {}
+.integration-section {
+
+    
+}
 
 .int-container {
     margin: 3rem auto;
@@ -393,6 +404,7 @@ header {
     width: 90%;
     height: 80vh;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .int-text {
