@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 
@@ -721,24 +721,32 @@ footer {
     width: 100%;
     background-color: #1A1A1A;
     color: #fff;
-    padding: 50px;
-    height: 100%;
-    gap: 40px;
+    /* padding: 50px; */
+    /* height: 100%; */
+    /* gap: 40px; */
+    
+}
+
+.f-container{
+    width: 90%;
+    margin: 2rem auto;
 }
 
 .footer-content {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content:space-evenly ;
     width: 90%;
-    margin: 0 auto;
-    gap: 15rem;
-    margin-bottom: 6rem;
+    margin: 2rem auto 1rem auto;
+    gap: 5rem;
+    /* margin-bottom: 6rem; */
+    
 }
 
 .footer-info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .footer-logo {
@@ -747,9 +755,9 @@ footer {
 }
 
 .footer-logo img {
-    width: 70px;
-    height: 70px;
-    font-size: 24px;
+    width: 4.375rem;
+    /* height: 70px; */
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -769,8 +777,9 @@ footer {
 
 .others {
     display: flex;
-    gap: 12rem;
+    gap: 5rem;
     margin-top: 1rem;
+    /* width:100%;  */
 }
 
 .list li {
@@ -787,14 +796,14 @@ footer {
 .resources {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 2.4rem;
 }
 
 .solutions p,
 .customers p,
 .resources p {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 2.3rem;
 }
 
 .solutions ul,
@@ -808,17 +817,19 @@ footer {
 
 .last {
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
     align-items: center;
-    max-width: 1150px;
-    margin: 0 auto;
-    justify-content: space-between;
+    width: 50%;
+    margin: 4rem auto 2rem auto;
+    /* justify-content: space-evenly; */
 }
 
 .socials a {
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
-    margin-right: 20px;
+    font-size: 1.4rem;
+    /* margin-right: 20px; */
 
     flex-wrap: wrap;
 }
@@ -1099,6 +1110,7 @@ footer {
 .down {
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .notifications {
@@ -1370,7 +1382,7 @@ hr {
     }
 
     .down {
-        width: 100%;
+        width: 90%;
         padding: 0 1rem;
     }
 
